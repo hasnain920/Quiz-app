@@ -1,0 +1,67 @@
+body {
+  font-family: Arial, sans-serif;
+  background: #f4f7f8;
+  margin: 0;
+  padding: 20px;
+}
+
+.container {
+  max-width: 600px;
+  margin: auto;
+  background: white;
+  padding: 20px 30px;
+  border-radius: 8px;
+  box-shadow: 0 0 8px rgba(0,0,0,0.1);
+}
+
+h1 {
+  text-align: center;
+}
+
+#question {
+  font-weight: bold;
+  margin-bottom: 15px;
+  white-space: pre-wrap;
+}
+
+.option-label {
+  display: block;
+  margin-bottom: 10px;
+  cursor: pointer;
+  user-select: none;
+}
+
+input[type="checkbox"] {
+  margin-right: 10px;
+  cursor: pointer;
+}
+
+button {
+  display: block;
+  margin: 20px auto 0;
+  padding: 10px 20px;
+  font-size: 1rem;
+  border: none;
+  background-color: #007bff;
+  color: white;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+button:disabled {
+  background-color: #7ab8f5;
+  cursor: not-allowed;
+}
+
+button:hover:not(:disabled) {
+  background-color: #0056b3;
+}
+
+.hidden {
+  display: none;
+}
+
+#result h2 {
+  text-align: center;
+}

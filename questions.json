@@ -1,0 +1,32 @@
+[
+  {
+    "question": "What is the output of the following Python code?\n\nx = [1, 2, 3]\ny = x\ny.append(4)\nprint(x)",
+    "options": ["[1, 2, 3]", "[1, 2, 3, 4]", "[4, 1, 2, 3]", "Error"],
+    "correctAnswers": [1]
+  },
+  {
+    "question": "What will this JavaScript code log?\n\nconsole.log(typeof null);",
+    "options": ["null", "undefined", "object", "boolean"],
+    "correctAnswers": [2]
+  },
+  {
+    "question": "What does this C code print?\n\n#include <stdio.h>\n\nint main() {\n    int a = 5;\n    printf(\"%d\", a++);\n    return 0;\n}",
+    "options": ["5", "6", "Error", "Undefined behavior"],
+    "correctAnswers": [0]
+  },
+  {
+    "question": "What is the output of this Java code?\n\npublic class Test {\n    public static void main(String[] args) {\n        String s1 = \"hello\";\n        String s2 = new String(\"hello\");\n        System.out.println(s1 == s2);\n    }\n}",
+    "options": ["true", "false", "Compile error", "Runtime error"],
+    "correctAnswers": [1]
+  },
+  {
+    "question": "What will this SQL query return?\n\nSELECT COUNT(*) FROM users WHERE age > 30;",
+    "options": [
+      "The total number of users in the table",
+      "The number of users whose age is greater than 30",
+      "A list of users over 30",
+      "An error"
+    ],
+    "correctAnswers": [1]
+  }
+]
